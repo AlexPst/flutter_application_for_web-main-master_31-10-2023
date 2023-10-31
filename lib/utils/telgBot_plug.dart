@@ -9,15 +9,16 @@ const String token = "6622522645:AAEzQznIXLr-gFT3pVT5LK8Zlsuthbr8Mzk";
 Conversation conversation = Conversation(bot);
 var startButton = InlineMenu(name: "Start").text("Start", letCommand);
 var starButt = Keyboard();
+String someText='';
 
-void startBot(){
+void startBot(String text){
+  someText = text;
   bot.start(welcomeHandler);
 }
 
 Future<void> welcomeHandler(MessageContext ctx) async {
   // Reply a greeting
-
-  ctx.reply("Hello");
+  ctx.reply(someText);
   await ctx.reply("Welcome to Televerse Conversation!");
   await ctx.reply("What is your name?");
 

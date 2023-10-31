@@ -165,7 +165,7 @@ class _HeaderBodyState extends State<HeaderBody> {
               textStyle: Theme.of(context).textTheme.labelLarge,
             ),
             child: const Text('Send'),
-            onPressed: (){startBot();},
+            onPressed: (){startBot(_messageTextController.text);},
           )
         ],
       );
