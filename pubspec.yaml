@@ -1,0 +1,33 @@
+name: flutter_application_for_web
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  after_layout: ^1.2.0
+  auto_size_text: ^3.0.0
+  carousel_slider: ^4.2.1
+  flutter:
+    sdk: flutter
+  flutter_email_sender: ^6.0.2
+  flutter_scroll_to_top: ^2.3.0
+  google_fonts: 6.1.0
+  http: ^1.1.0
+  mailer: ^6.0.1
+  provider: ^6.0.5
+  responsive_builder: ^0.7.0
+  televerse: ^1.11.2
+  webfeed: ^0.7.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/
