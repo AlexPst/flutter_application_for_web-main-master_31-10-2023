@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_for_web/constant.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_email_sender/flutter_email_sender.dart';
-import 'package:flutter_application_for_web/utils/telgBot_plug.dart';
+import 'package:flutter_application_for_web/utils/teleBot_plug.dart';
 
 
 
